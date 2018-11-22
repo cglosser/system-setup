@@ -11,7 +11,7 @@ sudo apt-get update
 sudo apt-get install syncthing
 
 # Add syncthing to systemd startup: 
-wget -P /tmp/ https://raw.githubusercontent.com/syncthing/syncthing/master/etc/linux-systemd/system/syncthing%40.service
-sudo mv /tmp/syncthing@.service /etc/systemd/system/syncthing@.service
+wget -P $TEMP_DIR https://raw.githubusercontent.com/syncthing/syncthing/master/etc/linux-systemd/system/syncthing%40.service
+sudo mv "${TEMP_DIR}/syncthing@.service" /etc/systemd/system/syncthing@.service
 sudo systemctl enable syncthing@connor.service
 sudo systemctl start syncthing@connor.service
