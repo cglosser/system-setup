@@ -23,3 +23,6 @@ sudo apt install libboost-all-dev libeigen3-dev libfftw3-dev texlive-full
 
 echo "Installing syncthing..."
 bash syncthing.sh
+
+echo "Fixing XPS wireless..."
+bash xps-wireless.sh
