@@ -9,8 +9,8 @@ sudo apt update && sudo apt upgrade
 echo "Installing software..."
 
 sudo apt install etckeeper
-sudo apt install avahi-daemon awscli blueman build-essential clang-format \
-                 conky-all curl darktable evince fonts-font-awesome \
+sudo apt install apt-transport-https avahi-daemon awscli blueman build-essential \
+                 clang-format conky-all curl darktable evince fonts-font-awesome \
                  fonts-hack-otf gimp git git-lfs gtk2-engines htop i3 inkscape \
                  intel-microcode julia keepassx lightdm lightdm lshw meld \
                  nethack-console network-manager network-manager-gnome orpie \
